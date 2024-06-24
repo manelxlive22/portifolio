@@ -1,0 +1,374 @@
+body {
+    padding: 0;
+    background-color: black;
+    color: black;
+    font-size: 25px;
+}
+
+
+
+header{
+    background-color: black;
+}
+
+
+.logo {
+    margin-left: 23vh;
+    font-size: 50px;
+    
+}
+
+.dark-mode .pai {
+    background-color: black;
+}
+
+.pai {
+
+    background-color: white;
+    height: 3000px;
+    width: 1900px;
+}
+
+
+
+.abas {
+    margin-left: 125vh;
+    margin-top: -30px;
+    font-size: 20px;
+    
+
+}
+
+.abas li {
+    display: inline;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.abas a {
+    text-decoration: none;
+   
+}
+
+.nome {
+    text-decoration: underline -12vh;
+    font-size: 20px;
+    margin-left: 20vh;
+    margin-top: 15vh;
+}
+
+.nome2 {
+    font-size: 50px;
+    margin-left: 23vh;
+    color: blue;
+}
+
+.web {
+    color: gray;
+    margin-left: 24vh;
+    font-size: 30px;
+    margin-top: -1vh;
+}
+
+.previo {
+    margin-top: 16vh;
+    font-size: 20px;
+    margin-left: 17vh;
+}
+
+#ema {
+    margin-left: 18vh;
+    color: blue;
+    font-size: 20px;
+}
+
+.foto1 {
+    margin-left: 125vh;
+    margin-top: -30vh;
+
+}
+
+.foto {
+    border-radius: 50%;
+    margin-top: -20vh;
+}
+
+.about {
+    color: blue;
+    margin-top: 20vh;
+    margin-left: 20vh;
+    font-size: 25px;
+}
+
+.about p {
+    color: black;
+    margin-top: 4vh;
+    font-size: 20px;
+
+}
+.dark-mode .futuro p{
+    color: white;
+
+}
+.futuro {
+    margin-top: 14vh;
+    font-size: 25px;
+    color: blue;
+    margin-left: 100vh;
+}
+
+.futuro p {
+    color: black;
+    margin-top: 4vh;
+    font-size: 20px;
+
+}
+
+.feitos {
+    margin-left: 20vh;
+    font-size: 25px;
+    color: blue;
+    margin-top: 14vh;
+}
+
+#reproducao {
+    margin-left: 20vh;
+    margin-top: 12vh;
+    font-size: 20px;
+
+}
+
+
+.photo {
+    margin-top: 5vh;
+    width: 400px;
+    margin-left: 20vh;
+}
+
+#reproducao2 {
+
+    margin-left: 89vh;
+    margin-top: -12vh;
+    font-size: 20px;
+
+
+}
+
+.photo2 {
+    margin-top: 5vh;
+    width: 400px;
+    margin-left: 89vh;
+
+
+}
+
+#reproducao3 {
+    margin-left: 20vh;
+    margin-top: -7vh;
+    font-size: 20px;
+
+}
+
+.photo3 {
+    margin-top: 5vh;
+    width: 400px;
+    margin-left: 20vh;
+}
+
+#reproducao2 {
+
+    margin-left: 89vh;
+    margin-top: -12vh;
+    font-size: 20px;
+
+
+}
+
+.photo2 {
+    margin-top: 5vh;
+    width: 400px;
+    margin-left: 89vh;
+    ;
+
+}
+
+.dark-mode .contatos {
+    background-color: black;
+}
+
+.contatos {
+    
+    color: blue;
+    margin-top: 20vh;
+    margin-left: 20vh;
+    font-size: 25px;
+}
+
+.contatos p {
+    margin-top: 1vh;
+    color: gray;
+    font-size: 20px;
+}
+
+.contatos a {
+    text-decoration: none;
+    color: gray;
+}
+
+#insta {
+    text-decoration: underline;
+}
+
+.voltar {
+    margin-left: 100vh;
+    margin-top: 18vh;
+    color: white;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.setup {
+    margin-left: 30vh;
+    margin-top: 4vh;
+
+
+}
+
+.local {
+    color: blue;
+    margin-top: 20vh;
+    margin-left: 20vh;
+    font-size: 25px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+@media only screen and (max-width: 601px) {
+    
+  }
+
+
+/* #inf {
+    color: gray;
+
+    font-size: 30px;
+}
+
+.about {
+    margin-left: 125vh;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    background-color: black;
+    color: white;
+}
+
+#sobre {
+    display: flex;
+    justify-content: center;
+}
+
+.abas {
+    margin-left: 125vh;
+    margin-top: -30px;
+    font-size: 20px;
+
+
+}
+
+.abas li {
+    display: flex;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+} */
