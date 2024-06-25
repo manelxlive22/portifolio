@@ -8,6 +8,7 @@ import Footer from './components/Footer/index.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   
+  
     <App/>
  
   </React.StrictMode>,
